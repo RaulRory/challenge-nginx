@@ -24,7 +24,8 @@ After the containers are up and running, you can test the application
 curl http://localhost:8080/
 ```
 ## Project Structure
-.
+
+```plaintext
 ├── docker-compose.yml
 ├── Dockerfile
 ├── nginx/
@@ -33,10 +34,11 @@ curl http://localhost:8080/
 │   └── unit/
 ├── src/
 │   ├── application/
-│   │   ├── ...
+│   │   └── ...
 │   ├── domain/
-│   │   ├── ...
+│   │   └── ...
 │   ├── infrastructure/
-│   │   ├── ...
+│   │   └── ...
 ├── package.json
 └── README.md
+```
