@@ -4,6 +4,8 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: app_node_docker
+    volumes:
+    - .:/usr/src/app
     ports:
       - "3000:3000"
     networks:
